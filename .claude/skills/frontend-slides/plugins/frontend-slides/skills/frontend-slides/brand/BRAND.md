@@ -26,6 +26,20 @@ On light surfaces (rare in this brand) keep the tile's dark fill — the logo ca
 
 One accent hue only. Emphasis comes from size, weight, and the accent — never from adding colors.
 
+### Named schemes
+
+The palette above is the **emerald** scheme, the default. Four alternates are defined in the template's `design.md` under `schemes:` — request by name:
+
+| Scheme | Look | When |
+|---|---|---|
+| `emerald` | Green on void (default) | Everyday decks |
+| `blueprint` | Signal orange on mission-control blue, blueprint-blue grid | Flagship/keynote decks |
+| `light` | Deep green on white | Print, handouts, bright rooms |
+| `cyan` | Ice cyan on void | Infra/data topics |
+| `amber` | Phosphor amber on void | Retro-futurist skin |
+
+Scheme swaps change color tokens only — type, layout, chrome, and logo placement never change. On the `light` scheme, render logo tiles with light fill (`#F7F8F6`), dark chevron, and the scheme's green for stroke/cursor; reference renders live in `examples/super-pal-demo-*.html` in the repo root.
+
 ## Typography
 
 - Display & headlines: **IBM Plex Mono**, weight 600, tight tracking. Monospace headlines ARE the brand.

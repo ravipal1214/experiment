@@ -17,6 +17,52 @@ color-aliases:
   bg: void
   rule: line
 
+# Named color schemes. "emerald" (the token values above) is the DEFAULT.
+# When the user names a scheme ("blueprint version", "the amber one", "light deck"),
+# override the color tokens with that scheme's values; everything else is unchanged.
+# Note: blueprint's grid is intentionally blueprint-blue, not the accent — it is
+# atmosphere (engineering blueprint paper), never a second accent.
+schemes:
+  emerald:
+    note: "default — values above"
+  blueprint:
+    void: "#080D18"
+    panel: "#0D1526"
+    fg: "#EDF1F7"
+    muted: "#7E8AA0"
+    accent: "#FF5C1F"
+    accent-dim: "rgba(255, 92, 31, 0.55)"
+    grid: "rgba(96, 140, 255, 0.08)"
+    line: "rgba(237, 241, 247, 0.14)"
+  light:
+    void: "#F7F8F6"
+    panel: "#FFFFFF"
+    fg: "#0B120E"
+    muted: "#5F6B64"
+    accent: "#00A86B"
+    accent-dim: "rgba(0, 168, 107, 0.55)"
+    grid: "rgba(0, 168, 107, 0.09)"
+    line: "rgba(11, 18, 14, 0.14)"
+    note: "the one light scheme — for print, handouts, bright rooms; panels get a soft 0 2px 12px rgba(11,18,14,.06) shadow; logo tiles switch to light fill with dark chevron (see brand/BRAND.md)"
+  cyan:
+    void: "#060A0F"
+    panel: "#0B1220"
+    fg: "#E8F2FA"
+    muted: "#7C8A99"
+    accent: "#3DD6FF"
+    accent-dim: "rgba(61, 214, 255, 0.55)"
+    grid: "rgba(61, 214, 255, 0.06)"
+    line: "rgba(232, 242, 250, 0.14)"
+  amber:
+    void: "#0B0805"
+    panel: "#151009"
+    fg: "#F2EADF"
+    muted: "#8F8577"
+    accent: "#FFB224"
+    accent-dim: "rgba(255, 178, 36, 0.55)"
+    grid: "rgba(255, 178, 36, 0.06)"
+    line: "rgba(242, 234, 223, 0.13)"
+
 typography:
   display-hero:
     fontFamily: "IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace"
