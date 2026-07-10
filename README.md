@@ -21,7 +21,13 @@ Files:
 
 ### `frontend-slides`
 
-Vendored from [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) (MIT License, © 2025 Zara Zhang) into `.claude/skills/frontend-slides/`. Creates animation-rich HTML presentations with visual style discovery, a bold template pack, and PPTX-to-web conversion.
+Vendored from [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) (MIT License, © 2025 Zara Zhang) into `.claude/skills/frontend-slides/`, then **customized for the SUPER PAL brand**:
+
+- `brand/` — SUPER PAL brand kit: inline-SVG logos (`super-pal-mark.svg`, `super-pal-logo.svg`) and `BRAND.md` (palette, typography, design-as-code voice)
+- `bold-template-pack/templates/super-pal-terminal/` — the house template: emerald-on-void engineering-keynote style with terminal chrome (status bar, `// comment` captions, `[BRACKET]` chips, blinking block cursors), IBM Plex Mono headlines, IBM Plex Sans body. Inspired by Hermes-agent/xAI terminal minimalism and Airbnb-tech cleanliness.
+- `SKILL.md` — brand-defaults section: new decks skip style discovery and use the SUPER PAL theme + logo automatically; say "show me styles" to get the stock 3-preview flow instead.
+
+See `examples/super-pal-demo.html` for a live 6-slide demo of the theme (open in any browser, arrow keys to navigate).
 
 ## Usage
 

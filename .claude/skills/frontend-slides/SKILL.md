@@ -15,6 +15,17 @@ Create zero-dependency, animation-rich HTML presentations that run entirely in t
 4. **Progressive Disclosure** — Read lightweight style indexes first. For bold templates, use small preview cards for style previews and load the full `design.md` only after the user picks that template.
 5. **Fixed 16:9 Stage (NON-NEGOTIABLE)** — Every deck uses a 1920×1080 slide canvas scaled as a whole to the viewport. Slides must stay 16:9 on every screen, including phones. Do not reflow slide content to fit the device.
 
+## SUPER PAL Brand Defaults (owner customization)
+
+This copy of the skill is customized for its owner, whose brand is **SUPER PAL**. Brand assets live in [brand/BRAND.md](brand/BRAND.md) (palette, typography, voice, and inline-SVG logos in `brand/super-pal-mark.svg` and `brand/super-pal-logo.svg`). The house template is `super-pal-terminal` in the bold template pack.
+
+Default behavior:
+
+1. **Branded by default.** For a new presentation, unless the user asks to explore styles or names a different style/template, SKIP Phase 2 style discovery: use the `super-pal-terminal` template. Read `bold-template-pack/templates/super-pal-terminal/design.md` AND `brand/BRAND.md` before generating, then go straight from Phase 1 to Phase 3.
+2. **Logo on every deck.** Full SUPER PAL lockup on title and closing slides; square mark bottom-left on content slides. Always paste the SVG markup inline — never reference the .svg files by path from the generated HTML.
+3. **Escape hatch.** If the user says anything like "show me styles", "something different", "not the usual", or the deck is clearly not for SUPER PAL (e.g. another company's branding), run the normal Phase 2 style discovery. In that case still offer `super-pal-terminal` as one of the three previews unless they excluded it.
+4. **Brand overrides taste heuristics.** When the brand template is active, its palette and type rules in `design.md`/`BRAND.md` win over the generic Design Aesthetics guidance below (e.g. the deck is always dark, always emerald-accented, and monospace headlines are intentional, not "AI slop").
+
 ## Design Aesthetics
 
 You tend to converge toward generic, "on distribution" outputs. In frontend design, this creates what users call the "AI slop" aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.

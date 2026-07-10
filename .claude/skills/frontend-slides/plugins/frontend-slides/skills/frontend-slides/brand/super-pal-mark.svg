@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="SUPER PAL mark">
+  <!-- terminal tile -->
+  <rect x="3" y="3" width="90" height="90" rx="16" fill="#07090B" stroke="#00E38C" stroke-width="3"/>
+  <!-- corner ticks (blueprint registration marks) -->
+  <path d="M 14 24 V 14 H 24" fill="none" stroke="#00E38C" stroke-width="2" opacity="0.55"/>
+  <path d="M 82 72 V 82 H 72" fill="none" stroke="#00E38C" stroke-width="2" opacity="0.55"/>
+  <!-- prompt chevron -->
+  <path d="M 28 32 L 47 48 L 28 64" fill="none" stroke="#E6EDF3" stroke-width="7" stroke-linecap="square"/>
+  <!-- cursor block -->
+  <rect x="55" y="56" width="17" height="8" fill="#00E38C"/>
+</svg>

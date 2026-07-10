@@ -2,7 +2,7 @@
   "schema_version": 1,
   "pack_name": "Beautiful HTML Templates - Bold Design Pack",
   "source_repo": "zarazhangrui/beautiful-html-templates",
-  "template_count": 34,
+  "template_count": 35,
   "usage": {
     "selection": "Read this compact index first to shortlist bold templates from metadata.",
     "previews": "For title-slide previews, read only the preview_md files for the shortlisted bold candidates.",
@@ -17,6 +17,31 @@
     "mobile_behavior": "preserve 16:9 stage; letterbox or pillarbox instead of reflowing slide content"
   },
   "templates": [
+    {
+      "slug": "super-pal-terminal",
+      "name": "SUPER PAL Terminal",
+      "tagline": "Owner's default brand: emerald-on-void engineering keynote with terminal chrome and design-as-code idioms.",
+      "mood": [
+        "techno",
+        "futuristic",
+        "engineering",
+        "minimal",
+        "terminal-native"
+      ],
+      "tone": [
+        "precise",
+        "quietly-technical",
+        "modern",
+        "understated"
+      ],
+      "formality": "medium",
+      "density": "medium",
+      "scheme": "dark",
+      "best_for": "DEFAULT for all SUPER PAL decks unless the user asks to explore other styles. Tech talks, architecture reviews, product/eng updates, AI and agent demos, developer-facing pitches. Pairs with brand/BRAND.md (logo SVGs, palette, voice).",
+      "avoid_for": "Decks the user explicitly wants light-schemed, playful, or unbranded.",
+      "preview_md": "bold-template-pack/templates/super-pal-terminal/preview.md",
+      "design_md": "bold-template-pack/templates/super-pal-terminal/design.md"
+    },
     {
       "slug": "8-bit-orbit",
       "name": "8-Bit Orbit",

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" role="img" aria-label="SUPER PAL logo">
+  <!-- mark -->
+  <g>
+    <rect x="3" y="3" width="90" height="90" rx="16" fill="#07090B" stroke="#00E38C" stroke-width="3"/>
+    <path d="M 14 24 V 14 H 24" fill="none" stroke="#00E38C" stroke-width="2" opacity="0.55"/>
+    <path d="M 82 72 V 82 H 72" fill="none" stroke="#00E38C" stroke-width="2" opacity="0.55"/>
+    <path d="M 28 32 L 47 48 L 28 64" fill="none" stroke="#E6EDF3" stroke-width="7" stroke-linecap="square"/>
+    <rect x="55" y="56" width="17" height="8" fill="#00E38C"/>
+  </g>
+  <!-- wordmark: SUPER_PAL -->
+  <text x="116" y="62" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="40" font-weight="600" letter-spacing="2">
+    <tspan fill="#E6EDF3">SUPER</tspan><tspan fill="#00E38C">_</tspan><tspan fill="#00E38C">PAL</tspan>
+  </text>
+  <!-- comment tagline -->
+  <text x="118" y="86" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="14" font-weight="400" letter-spacing="1" fill="#7D8590">// design as code</text>
+</svg>
